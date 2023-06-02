@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+</style>
+</head>
+<body bgcolor="aqua">
+	<form action="web" method="post">	
+	       	<table align="center" cellsapcing="10" border="2"style="width: 60%; background-color: rgb(128, 255, 255)">
+			
+				<center><h1>Placement Registration form</h1></center>
+		
+			<tr>
+				<td><label for="firstname"><b>First Name </b></label></td>
+				<td><input type="text" id="firstname" name="fname"
+					style="width: 600px;" "required></td>
+			</tr>
+
+			<tr>
+				<td><label for="middlename"><b> Middle Name </b></label></td>
+				<td><input type="text" id="middlename" name="mname"
+					style="width: 600px;" required></td>
+			</tr>
+			<tr>
+				<td><label for="lastname"><b>Last Name</b></label></td>
+				<td><input type="text" id="lastname" name="lname"
+					style="width: 600px;" required></td>
+			</tr>
+			<tr>
+				<td><label for="gender"><b>Gender</b></label></td>
+				<td><input type="radio" id="gender" value="Male" name="gend">
+					<label for="male"> Male:</label> <input type="radio" id="gender"
+					value="female" name="gend"> <label for="Female">Female</label>
+					<input type="radio" id="gender" value="other" name="gend">
+					<label for="other">Other</label></td>
+			</tr>
+			<tr>
+				<td><label for="E-male ID"><b>Email-ID</b></label></td>
+				<td><input type="text" id="Email-ID" name="email"
+					style="width: 600px;" required></td>
+			</tr>
+			<tr>
+				<td><label for="phone"><b>Phone</b></label></td>
+				<td><input type="text" id="countrycode" value="+91" size="2">
+					<input type="text" id="Phone" name="pho" size="10"
+					style="width: 545px;" required></td>
+			</tr>
+			<tr>
+				<td><label for="course"><b>Select Course</b></label></td>
+				<td><select id="course" name="course" style="width: 600px;">
+						<option value="be">BE</option>
+						<option value="betech">BTECH</option>
+						<option value="bsc">BSC</option>
+						<option value="bca">BCA</option>
+						<option value='mca'>MCA</option></td></select>
+				
+			</tr>
+			<tr>
+				<td><label for="University name"><b>University name</b></label></td>
+				<td><select id="university" name="university" style="width: 600px;">
+						<option value="University Of Mumbai">University Of Mumbai</option>
+						<option value="University Of Pune">University Of Pune</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="collge name"><b>College Name</b></label></td>
+				<td><select id="college" name="college" style="width: 600px;">
+						<option value="JES A.C PATIL COLLGEENGINEERING NAVI MUMBAI">JES A.C PATIL COLLGE ENGINEERING NAVI MUMBAI</option>
+							<option value="JSP D.C PATIL COLLGE ENGINEERING  MUMBAI">JSP D.C PATIL COLLGE ENGINEERING  MUMBAI</option>
+							
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="stream"><b>Stream </b></label></td>
+				<td><select id="stream" name="stream" style="width: 350px;">
+						<option value="cs">Computer Science</option>
+						<option value="it">Information Technology</option>
+						<option value="extc">Electronics and Telecommunication</option>
+						<option value="aids">AIDS</option>
+						<option value="electrical">Electrical</option>
+						<option value="mech">Mechanical</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><b>SSC Details</b></td>
+				<td><label for="select">Select:</label>
+				 <select id="sscSelect" name="sscSelect" style="width: 200px;" >
+						<option value="cgpa">CGPA</option>
+						<option value="percentage">Percentage</option>
+				</select>
+				 <label for="Score">Score:</label> <input type="text" id="score" name="scos">
+				<td>
+			</tr>
+			<tr>
+				<td><b>HSC Details</b></td>
+				<td><label for="hscSelect">Select:</label>
+				 <select id="hscSelect" name="hscSelect" style="width: 200px;">
+						<option value="cgpa">CGPA</option>
+						<option value="percentage">Percentage</option>
+				</select> <label for="Score">Score:</label> <input type="text" id="score"
+					name="scoh"></td>
+			</tr>
+			<tr>
+				<td><b>Under Graduation Details</b></td>
+				<td><label for="ugSelect">Select:</label> 
+				<select  id="ugSelect" name="ugSelect" style="width: 200px;">
+						<option value="cgpa">CGPA</option>
+						<option value="percentage">Percentage</option>
+				</select> <label for="Score">Score:</label>
+				 <input type="text" id="score" name="scou"></td>
+			</tr>
+			<tr>
+				<td><b>Post Graduation Details</b></td>
+				<td><label for="pSselect">Select:</label> 
+				<select id="pgSelect" name="pgSelect" style="width: 200px;">
+						<option value="cgpa">CGPA</option>
+						<option value="percentage">Percentage</option>
+				</select> <label for="Score">Score:</label> 
+				<input type="text" id="score" name="scop"></td>
+			</tr>
+			<tr>
+				<td><label for="myfile"><b>Upload resume </b></label></td>
+				<td><input type="file" id="myfile" name="mf" style="width: 350px;"></td>
+			</tr>
+			<tr>
+					<td><button type="reset" style="width: 300px">Reset</button></td>
+				    <td><button type="submit" style="width: 607px">Submit</button></td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>
